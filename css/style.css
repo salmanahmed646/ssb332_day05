@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+.clear-fix {
+    content: "";
+    clear: both;
+    display: block;
+}
+.text-center {
+    text-align: center;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.center {
+	text-align: center;
+}
+.margin-top {
+    margin-top: 30px;
+}
+.margin-bottom {
+    margin-bottom: 30px;
+}
+.font {
+    font-size: 20px;
+}
+
+.bg-gray {
+    background: #dfe4ea;
+}
+
+/*  */
+.test h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.beach {
+    text-align: center;
+}
+.beach a img {
+    border-radius: 15px;
+    transition: .4s;
+}
+.beach a img:hover {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+.beach p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/*  */
+.list {
+    margin-top: 20px;
+}
+.list-item {
+	width: 49%;
+	margin-bottom: 50px;
+}
+.list-item ul li a {
+	text-decoration: none;
+	color: #111;
+	font-size: 18px;
+	padding: 5px 10px;
+	display: inline-block;
+}
+.list-item ol li {
+	font-size: 18px;
+	padding: 5px 10px;
+}
+
+/*  */
+.contact-us address {
+	font-size: 18px;
+}   
+
+/* button */
+.button button {
+	font-size: 20px;
+	padding: 15px 39px;
+	margin-top: 21px;
+	border-radius: 10px;
+	background: #3498db;
+	border: 1px solid #3498db;
+	color: #fff;
+    cursor: pointer;
+    transition: .4s;
+}
+.button button:hover {
+    background-color: #fff;
+    color: #3498db;
+}
+
+
+
+/* Table */
+
+.table {}
+.table caption {
+	font-size: 35px;
+}
+.table tr {}
+.table tr th {
+	font-size: 20px;
+	padding: 20px 25px;
+	border-bottom: 1px solid;
+}
+.table tr td {
+	font-size: 19px;
+	text-align: center;
+	padding: 18px 20px;
+}
+
+
+/* Data-Form */
+.data-form #city {
+	padding: 15px 20px;
+	border: 1px solid red;
+	border-radius: 10px;
+	outline: none;
+	width: 200px;
+	font-size: 16px;
+    margin-top: 15px;
+
+}
+.data-form .sub input {
+	font-size: 18px;
+	padding: 14px 25px;
+	border-radius: 7px;
+	background: #ddd;
+	border: 1px solid green;
+	margin-top: 15px;
+}
+
+/*  */
+fieldset input {
+	padding: 15px 20px;
+	width: 246px;
+	border-radius: 10px;
+	border: 1px solid;
+	outline: none;
+	font-size: 16px;
+}

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSB332-Day 05</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+    <div class="container margin-bottom margin-top bg-gray center">
+        <a class="font margin-top" href="index.html"> Home </a>
+    </div>
+    
+
+    <div class="contact-us margin-top">
+        <div class="container">
+            <h1 class="text-center">Contact US</h1>
+            <address>
+                Written by <a href="#"> Salman Ahmed </a> <br>
+                <a href="#"> salman.com </a> <br>
+                3278  Wellington Street <br>
+                Toronto
+                Canada
+            </address>
+        </div>
+    </div>
+
+
+    <div class="aside margin-top font  ">
+        <div class="container bg-gray">
+            <h2> Aside </h2>
+            <aside>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur reprehenderit voluptate, natus reiciendis suscipit aut perspiciatis nobis laborum possimus, repudiandae eveniet esse nesciunt tempora, inventore eius cumque voluptatibus porro doloremque.</p>
+            </aside>
+        </div>
+    </div>
+
+    <div class="audio control margin-top font">
+        <div class="container">
+            <h2>Audio Not Working</h2>
+            <div class="container">
+                <audio src="audio/audio.mp3" type="audio/mp3"> Nothing </audio>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container margin-top font">
+        <h2> BDI </h2>
+        <ul>
+            <li> hrefs: 60 points </li>
+            <li> jdoe: 60 points </li>
+            <li> <bdi>إيان</bdi> : 60 points </li>
+        </ul>
+    </div>
+
+
+    <div class="container margin-top margin-bottom font bg-gray">
+        <h2> BDO </h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tenetur magni pariatur natus dicta? Ullam. </p> <br>
+
+
+        <h3> Right to Left </h3>
+        <p> <bdo dir="rtl"> This paragraph will go right-to-left   </bdo> </p> <br> <br>
+
+        <h3> Left to Right </h3>
+        <p> <bdo dir="ltr"> This paragraph will go right-to-left </bdo> </p>
+    </div>
+
+
+    <div class="container font margin-bottom">
+        <h2>BlockQuote</h2>
+        <p> Lorem ipsum dolor sit amet. </p>
+        <blockquote>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore amet quasi, perspiciatis voluptatum id alias ipsam, maiores, natus consequatur molestiae dolores dolor voluptates repellat cum atque dolorum minima placeat sint velit at recusandae voluptas. Dolorum dolor, magnam minus qui ipsam assumenda corporis praesentium inventore quia vitae nesciunt quasi commodi odit? </p>
+        </blockquote>
+    </div>
+
+    <div class="container font margin-bottom bg-gray">
+        <div class="button">
+            <h2> Button </h2>
+            <button type="submit"> Visit My website </button>
+        </div>
+    </div>
+
+    <div class="container margin-bottom font">
+        <h2>Canvas not working</h2>
+        <canvas id="mycanvas"> Browser </canvas>
+        <script>
+            var c = document.getElementById("mycanvas");
+            var ctx = c.getContext("2nd");
+            ctx.fillStyle = "FF0000";
+            ctx.fillRect(0, 80, 100);
+        </script>  
+    </div>
+
+    <div class="container bg-gray font margin-bottom">
+        <h2 class="margin-top">Caption</h2>
+
+        <div class="table">
+            <table>
+                <caption> User info </caption>
+                <tr>
+                    <th>NO</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Petter Parker</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td> 2 </td>
+                    <td> Clark kent </td>
+                    <td> 34 </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <div class="container font margin-bottom">
+        <h2>Cite</h2>
+        <img src="images/beach.jpg" alt="">
+        <p><cite>Salman Ahmed</cite>. Painted in 2021. </p>
+    </div>
+
+
+    <div class="container font margin-bottom bg-gray">
+        <h2>Code</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, doloremque.</p>
+        <p> <code>  orem ipsum dolor  </code>, sit amet consectetur adipisicing elit. <code>Quia, possimus</code>. </p>
+    </div>
+
+
+    <div class="container font margin-bottom">
+
+        <h2>Data Not Working</h2>
+
+        <ul>
+            <li> <data value="21053"> Apple </data> </li>
+            <li> <data value="7000"> Sumsung </li>
+            <li> <data value="8000"> Oneplus </li>
+            <li> Xiaomi  </li>
+        </ul>
+    </div>
+
+
+    <div class="container margin-bottom font bg-gray">
+
+        <div class="data-form">
+            <h2>Datalist</h2>
+            <form action="#">
+                <label for="city"> Choose your city from the list: </label> <br>
+                <input list="cityes" name="city" id="city" placeholder="Choose">
+                <datalist id="city">
+                  <option value="San Francisco">
+                  <option value="New York">
+                  <option value="Seattle">
+                  <option value="Los Angeles">
+                  <option value="Chicago">
+                </datalist> <br>
+                <div class="sub">
+                    <input type="submit" >
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container font bg-gray margin-bottom">
+        <h2>DD not working</h2>
+        <div class="dd">
+            <dl>
+                <dt>Apple</dt>
+                <dd>Sumsung</dd>
+                <dt>Vivo</dt>
+                <dd>Oppo</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="container font margin-bottom">
+        <h2> delete </h2>
+        <p>Lorem <del>ipsum dolor</del> Lorem, ipsum dolor. <ins>sit amet.</ins></p>
+    </div>
+<!--  -->
+    <div class="container font bg-gray margin-bottom">
+        <h2>Details</h2>
+        <details>
+            <summary> Salman Ahmed </summary>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, reiciendis.</p>
+        </details>
+    </div>
+    <!--  -->
+    <div class="container font margin-bottom">
+        <h2> DFN </h2>
+        <p> <dfn>Lorem ipsum dolor sit amet</dfn> consectetur adipisicing elit. Esse, voluptas. </p>
+    </div>
+    <!--  -->
+
+    <div class="container font margin-bottom bg-gray">
+        <h2>Dialog</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <dialog open>Lorem ipsum dolor sit amet.</dialog>
+    </div>
+    <!--  -->
+
+    <div class="container font margin-bottom">
+        <h2>Empahasis</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p> <em> Lorem ipsum dolor sit amet. </em> </p>
+    </div>
+
+    <!--  -->
+    <div class="container font margin-bottom bg-gray">
+        <h1>Embed</h1>
+        <img src="images/beach.jpg" width="200" height="200"  alt="beach">
+        <embed src="images/beach.jpg" width="200" height="200" type="">
+    </div>
+    <!--  -->
+    <div class="container font margin-bottom">
+        <h2>Fieldset</h2>
+        <form action="#">
+            <fieldset>
+                <legend> Personal info </legend>
+                <label for="first-name"> First Name: </label>
+                <input type="text" id="first-name" name="first-name" placeholder="Type Your First Name"> <br><br>
+                <label for="last-name"> Last Name: </label>
+                <input type="text" id="last-name" name="last-name" placeholder="Type Your Last Name"> <br><br>
+                <label for="email"> Email: </label>
+                <input type="email" id="email" name="email" placeholder="Type Your Email"> <br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+                <input type="submit" value="submit">
+            </fieldset>
+        </form>
+    </div>
+    <!--  -->
+    <div class="container font margin-bottom bg-gray">
+        <h1>FigCaption</h1>
+        <figure>
+            <img src="images/beach.jpg" alt="beach" width="200" height="200">
+            <figcaption> Bangladesh, Sylhet </figcaption>
+        </figure>
+    </div>
+    <!--  -->
+
+    <div class="container font margin-bottom">
+        <h2>Footer</h2>
+        <footer>
+            <p>© Copyright 2021 Facebook - All Rights Reserved by Salman Ahmed</p>
+            <a href="mailto:647salman@gmail.com"> 647salman@gmail.com </a>
+        </footer>
+    </div>
+    <!--  -->
+    <div class="container font margin-bottom bg-gray">
+        <h1>Form</h1>
+        <form action="#">
+            <label for="name"> First Name: </label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+            <label for="last"> Last Name: </label>
+            <input type="text" id="last" name="name" placeholder="Last Name">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <!--  -->
+    <div class="container font margin-bottom">
+        <h2> h1 TO h6 </h2>
+        <h1> This is H1 Tag </h1> 
+        <h2> This is H2 Tag </h2>
+        <h3> This is H3 Tag </h3>
+        <h4> This is H4 Tag </h4>
+        <h5> This is H5 Tag </h5>
+        <h6> This is H6 Tag </h6>
+    </div>
+    <!--  -->
+    <div class="container font margin-bottom bg-gray">
+        <h1> Header </h1>
+        <article>
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae voluptate fuga incidunt laboriosam vitae aspernatur, libero unde, odit fugiat accusamus laborum cupiditate nostrum atque, quam perspiciatis deserunt! Maxime, eveniet impedit!</h1>
+        </article>
+    </div>
+    <!--  -->
+    <div class="container font margin-bottom">
+        <h1> Horizontail Rule </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, eius?</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, doloribus!</p>
+        <hr>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, pariatur!</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, reprehenderit.</p>
+    </div>
+    <!--  -->
+
+    <div class="container font margin-bottom bg-gray">
+        <h2>Italic</h2>
+        <p> Lorem ipsum dolor sit amet. </p>
+        <p> <i> Lorem ipsum dolor sit amet. </i> </p>
+    </div>
+    <!--  -->
+
+    <div class="container font margin-bottom">
+        <h2> Iframe </h2>
+        <iframe src="https://google.com" frameborder="500" title="Google"></iframe>
+    </div>
+    <!--  -->
+    <div class="container font margin-bottom bg-gray">
+        <h2> Image </h2>
+        <img src="images/beach.jpg" alt="beach" width="300" height="300">
+    </div>
+    <!--  -->
+    <div class="container font margin-bottom">
+        <h2>Input</h2>
+        <form action="#">
+            <label for="first-name"> First Name: </label>
+            <input type="text" id="first-name" name="first-name" placeholder="First Name">
+            <label for="last-name"> Last Name: </label>
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <!--  -->
+    <div class="container font margin-bottom bg-gray">
+        <h2>KBD</h2>
+        <p> Lorem ipsum dolor sit amet. </p>
+        <p> <kbd> Lorem ipsum dolor sit amet. </kbd> </p>
+    </div>
+
+    <!--  -->
+    <div class="container font margin-bottom">
+        <h2>Label</h2>
+        <form action="#">
+            <label for="male"> Male </label>
+            <input type="radio" name="gender" id="male" value="male"> <br>
+            <label for="female"> Female </label>
+            <input type="radio" name="gender" id="female" value="female"> <br>
+            <label for="other"> Other </label>
+            <input type="radio" name="gender" id="other" value="other"> <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <!--  -->
+    <div class="container font margin-bottom bg-gray">
+        <h1>Legend</h1>
+        <form action="">
+            <fieldset>
+                <legend> Personal: </legend>
+                <label for="frist-name"> Frist Name </label>
+                <input type="text" id="frist-name" name="frist-name" placeholder="Frist Name"> <br><br>
+                <label for="last-name"> Last Name </label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name"> <br><br>
+                <label for="email"> Email </label>
+                <input type="email" id="email" name="email" placeholder="E-mail Address"> <br><br>
+                <label for="brithday"> Brithday </label>
+                <input type="date" id="brithday" name="brithday"> <br> <br>
+                <input type="submit" value="submit">
+            </fieldset>
+        </form>
+    </div>
+    <!--  -->
+    <div class="container font margin-bottom">
+        <h2> OL and UL </h2>
+        <ol>
+            <li> Bangladesh </li>
+            <li> India </li>
+            <li> Pakistan </li>
+        </ol>
+        <ul>
+            <li> Bangladesh </li>
+            <li> India </li>
+            <li> Pakistan </li>
+        </ul>
+    </div>        
+
+
+
+</body>
+</html>
+<!--  -->
+
+
+
+
+
+
